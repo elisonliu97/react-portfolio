@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
 
-function Project(props) {
-
+function About () {
     return (
         <div>
-            Project
+            About
         </div>
     )
 }
 
-export default Project
+export default About

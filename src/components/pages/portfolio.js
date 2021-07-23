@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
 
-function Project(props) {
-
+function Portfolio () {
     return (
         <div>
-            Project
+            Portfolio
         </div>
     )
 }
 
-export default Project
+export default Portfolio
