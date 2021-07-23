@@ -9,24 +9,23 @@ function Header() {
     const handlePageChange = (page) => setCurrentPage(page);
 
     const renderPage = () => {
-        // if (currentPage === 'Resume') {
-        //   return <Resume />;
-        // }
         if (currentPage === 'Portfolio') {
-          return <Portfolio />;
+            return <Portfolio />;
         }
         if (currentPage === 'Contact') {
-          return <Contact />;
+            return <Contact />;
         }
         return <About />;
-      };
+    };
 
     return (
         <div>
-            Elison Liu
-            <NavBar currentPage={currentPage} handlePageChange={handlePageChange}/>
+            <div class="header-container">
+                <h1>Elison Liu</h1>
+                <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
+            </div>
+
             {renderPage()}
-            {currentPage + "TEXT"}
         </div>
     )
 }

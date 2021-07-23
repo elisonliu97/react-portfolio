@@ -9,7 +9,7 @@ function NavBar(props) {
         <nav>
             <ul>
                 <li onClick={() => props.handlePageChange("About")}>
-                        About Me
+                        About
                 </li>
                 <li onClick={() => props.handlePageChange("Portfolio")}>
                         Portfolio
@@ -21,7 +21,6 @@ function NavBar(props) {
                         Resume
                 </li>
             </ul>
-            {/* <Project /> */}
         </nav>
     )
 }

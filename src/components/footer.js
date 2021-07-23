@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
+import imgs from '../components/images'
 
 function Footer() {
-    
+
     return (
-        <div>
-            Footer
+        <div class='footer-container'>
+            <a href={"https://github.com/elisonliu97"}><img src={imgs.githubIcon} /></a>
+            <a href={"https://ca.linkedin.com/"}><img src={imgs.linkedInIcon} /></a>
+            <a href={"https://twitter.com/"}><img src={imgs.twitterIcon} /></a>
         </div>
     )
 }
