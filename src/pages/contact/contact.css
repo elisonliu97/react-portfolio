@@ -1,0 +1,40 @@
+.contact-container {
+    background-color: lightblue;
+    /* display:flex; */
+}
+
+.form-container {
+    /* these 4 are important for positioning */
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    /* justify-content: center; */
+    border: 5px solid red;
+    height: 65vh;
+
+    /* justify-content make forms centered horizontally */
+}
+
+.form-container button {
+    max-height: 10vh;
+}
+
+.input-container {
+    display:flex;
+    align-items: center;
+    /* for each input container, align vertically */
+    /* justify-content: center; */
+}
+
+textarea {
+    /* margin is outside */
+    margin:10px;
+    /* padding is inside */
+    padding:10px;
+    resize:none;
+}
+
+.contact-container #input-name {
+    width: 20vw;
+    height: 10vh;
+}

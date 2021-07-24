@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import imgs from '../components/images'
+import imgs from '../../images/index'
+import './footer.css';
 
 function Footer() {
 

@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  
 }
 
 .App-logo {
@@ -43,33 +42,21 @@
 nav {
   display:flex;
   padding-top: 15px;
-  margin-right: 20px;
+  margin-right: 5%;
   float: right;
 }
 
 nav li {
   display:inline;
-  padding-right:5%;
+  /* border: 10px solid black; */
+  padding-left:1rem;
   color: #b9c6ae;
   font-weight: bold;
   text-decoration: none;
   height:100%;
 }
 
-.footer-container {
-  background-color: #13293d;
-  position:sticky;
-  bottom:0;
-  padding-bottom:1%;
-  width:100%;
-  height:3rem;
-}
 
-.footer-container img {
-  height: 3rem;
-  padding-left: 1rem;
-  padding-top:0.5%;
-}
 
 /* Main image card section settings */
 .main-card{

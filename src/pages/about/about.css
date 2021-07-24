@@ -1,0 +1,13 @@
+.about-me {
+    min-height: 80vh;
+    background-color: purple;
+    /* text-align: start; */
+    padding: 5rem 10rem 5rem 10rem;
+}
+
+.about-me img {
+    height: 20vh;
+    float:left;
+    padding-left: 10rem;
+}
+

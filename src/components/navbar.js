@@ -9,19 +9,20 @@ function NavBar(props) {
         <nav>
             <ul>
                 <li onClick={() => props.handlePageChange("About")}>
-                        About
+                    About
                 </li>
                 <li onClick={() => props.handlePageChange("Portfolio")}>
-                        Portfolio
+                    Portfolio
                 </li>
-                <li onClick={() => props.handlePageChange("Contact")}> 
-                        Contact
+                <li onClick={() => props.handlePageChange("Contact")}>
+                    Contact
                 </li>
                 <li onClick={() => props.handlePageChange("Resume")}>
-                        Resume
+                    <a href="https://drive.google.com/file/d/17GR5d24QC7zzlLlR6FvQdRZf9NnWx4Id/view">Resume</a>
                 </li>
+
             </ul>
-        </nav>
+        </nav >
     )
 }
 export default NavBar
