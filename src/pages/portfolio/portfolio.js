@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import imgs from '../images'
+import imgs from '../../images'
 
 function Portfolio () {
     return (

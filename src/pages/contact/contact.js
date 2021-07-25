@@ -9,6 +9,9 @@ function Contact() {
     });
 
     // need 
+    const submitHandler = () => {
+        return
+    }
 
 
     return (
@@ -18,7 +21,7 @@ function Contact() {
             <form class="form-container" onSubmit={() => submitHandler()}>
                 <div class="input-container">
                     <label>Name</label>
-                    <textarea onChange={} id="input-name"></textarea>
+                    <textarea id="input-name"></textarea>
                 </div>
                 <div class="input-container">
                     <label>Email</label>

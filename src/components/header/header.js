@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
-import NavBar from './navbar';
-import About from '../pages/about/about';
-import Portfolio from '../pages/portfolio';
-import Contact from '../pages/contact/contact';
+import NavBar from '../navbar/navbar';
+import About from '../../pages/about/about';
+import Portfolio from '../../pages/portfolio/portfolio';
+import Contact from '../../pages/contact/contact';
+import './header.css'
 
 function Header() {
     const [currentPage, setCurrentPage] = useState('About');

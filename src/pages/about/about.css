@@ -1,13 +1,15 @@
 .about-me {
-    min-height: 80vh;
-    background-color: purple;
-    /* text-align: start; */
-    padding: 5rem 10rem 5rem 10rem;
+    min-height: 74vh;
+    padding: 5vh 10vh 5vh 10vh;
+}
+
+.about-me .infosection {
+    text-align: left;
 }
 
 .about-me img {
     height: 20vh;
     float:left;
-    padding-left: 10rem;
+    padding: 5vh;
 }
 

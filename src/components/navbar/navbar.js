@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { NavLink, Link } from "react-router-dom";
-import Project from './project';
+import './navbar.css'
 
 function NavBar(props) {
 
