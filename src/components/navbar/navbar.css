@@ -1,16 +1,25 @@
 nav {
     display:flex;
-    padding-top: 15px;
     margin-right: 5%;
     float: right;
-  }
+}
   
-  nav li {
+nav li {
     display:inline;
-    /* border: 10px solid black; */
-    padding-left:1rem;
+    /* border-left: 3px solid red;
+    border-right: 3px solid red; */
+    /* margin: 0vh 0.5vw 0vh -.5vw; */
+    padding: 4vh 1vw 4vh 1vw;
     color: #b9c6ae;
     font-weight: bold;
+}
+
+nav li:hover {
+    background-color: lightgray;
+    color:black;
+}
+
+nav a {
     text-decoration: none;
-    height:100%;
-  }
+    color: inherit;
+}
