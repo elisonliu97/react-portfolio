@@ -16,7 +16,7 @@ function NavBar(props) {
                 <a href="#"><li onClick={() => props.handlePageChange("Contact")}>
                     Contact
                 </li></a>
-                <a href="https://drive.google.com/file/d/17GR5d24QC7zzlLlR6FvQdRZf9NnWx4Id/view"><li onClick={() => props.handlePageChange("Resume")}>
+                <a href="#"><li onClick={() => props.handlePageChange("Resume")}>
                     Resume
                 </li></a>
 

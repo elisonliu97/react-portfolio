@@ -3,6 +3,7 @@ import NavBar from '../navbar/navbar';
 import About from '../../pages/about/about';
 import Portfolio from '../../pages/portfolio/portfolio';
 import Contact from '../../pages/contact/contact';
+import Resume from '../../pages/resume/resume'
 import './header.css'
 
 function Header() {
@@ -15,6 +16,9 @@ function Header() {
         }
         if (currentPage === 'Contact') {
             return <Contact />;
+        }
+        if (currentPage === 'Resume') {
+            return <Resume />
         }
         return <About />;
     };
