@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './navbar.css'
 
 function NavBar(props) {
-
+    
     return (
         // navbar portion
         <nav>

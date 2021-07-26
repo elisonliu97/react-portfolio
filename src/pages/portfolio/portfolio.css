@@ -1,0 +1,39 @@
+.portfolio {
+    min-height: 72vh;
+    padding: 5vh 10vh 5vh 10vh;
+    /* display: flex; */
+    /* background-color: blue; */
+}
+
+.card-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+  /* Image card section formatting */
+.card{
+    margin: 2vh;
+    position:relative;
+    width: 350px;
+    /* display:inline-block; */
+  }
+  
+  /* image card settings within section */
+  .card img {
+    width: 100%;
+    border: 1px solid black;
+  }
+  
+  /* title card on images */
+  .card-title {
+    position:absolute;
+    bottom: 2%;
+    left:0;
+    background-color: lightblue;
+    padding: 1vh;
+    border: 2px solid black;
+    color:black;
+  }

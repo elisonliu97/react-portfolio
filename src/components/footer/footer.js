@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import imgs from '../../images/index'
 import './footer.css';
 

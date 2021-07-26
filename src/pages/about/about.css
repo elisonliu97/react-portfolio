@@ -1,15 +1,18 @@
 .about-me {
     min-height: 72vh;
     padding: 5vh 10vh 5vh 10vh;
+    display: inline-block;
 }
 
 .about-me .infosection {
     text-align: left;
+    display: inline-block;
+    flex-direction: column;
+    width: 50vw;
 }
 
 .about-me img {
-    height: 20vh;
+    width: 30vw;
     float:left;
     padding: 5vh;
 }
-
