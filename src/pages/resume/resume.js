@@ -1,5 +1,4 @@
 import React from 'react';
-import imgs from '../../images'
 import "./resume.css"
 
 function Resume() {
