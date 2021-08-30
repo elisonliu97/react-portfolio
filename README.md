@@ -1,4 +1,4 @@
-# Fitness-Tracker-HW
+# React Portfolio HW
 
   ## Description
   This is my portfolio built with reactjs. In this, you can learn a little bit about me and the work I've done. You can also leave me a message, and check out my resume.
