@@ -16,7 +16,7 @@
   `npm start`
   
   ## Usage
-  To use the application, go to the [deployed link](https://fitness-tracker-hw-el.herokuapp.com/).
+  To use the application, go to the [deployed link](https://elisonliu97.github.io/react-portfolio/).
 
 ![image](https://user-images.githubusercontent.com/28275237/127094434-ea3275a2-d0f0-4007-93dd-083685ab21b1.png)
 
